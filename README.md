@@ -42,4 +42,5 @@ Check out how to [create a branch](https://help.github.com/articles/creating-and
 <img src="https://codingnomads.co/wp-content/uploads/2018/08/CN_Logo_Retina.png" alt="CodingNomads logo" width="400px"/>
 
 
-Keep learning! :)
+Keep learning! :)# python_fundamentals
+# python_fundamentals
