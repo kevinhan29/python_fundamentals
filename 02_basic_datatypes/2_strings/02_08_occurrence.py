@@ -7,3 +7,11 @@ Letter input: o
 Result: 4
 
 '''
+
+# prompts user for inputs
+sentence = input("Please enter a sentence or word: ")
+letter = input("Please enter a letter: ")
+
+# finding first occurrence of the letter
+x = sentence.find(letter)
+print(x)

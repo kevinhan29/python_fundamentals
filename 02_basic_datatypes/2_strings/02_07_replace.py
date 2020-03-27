@@ -8,3 +8,9 @@ Result: #ore python progra##ing please
 
 '''
 
+# asks for user inputs
+sentence = input("Type in any sentence: ")
+symbol = input("Enter in a symbol: ")
+
+sentence = sentence.replace(sentence[0], symbol)       # replace all occurrences of the first letter with the symbol
+print(sentence)
