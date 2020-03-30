@@ -10,3 +10,14 @@ NOTE: Check out the Python docs and see whether you can come up with a solution,
       Feel free to discuss any questions you have with your mentor and on the forum!
 
 '''
+input_dict = {"item1": 5, "item2": 6, "item3": 1, "item4": 4, "item5":8, "item6": 2}
+result_list = []
+
+# add dictionary key value pairs into list as tuples
+while len(input_dict) != 0:
+    result_list.append(input_dict.popitem())
+    #print(result_list)
+
+# sort the list based on value
+result_list.sort(key=lambda x:x[1])
+print(result_list)
