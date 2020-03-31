@@ -17,3 +17,14 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+# asks user to input integer and checks if input is an int
+while True:
+    try:
+        x = int(input("\nEnter an integer: "))
+        break
+    except:
+        print("\nThat is not an integer!")
+
+for i in range(1, x + 1):
+    print(i*"*")

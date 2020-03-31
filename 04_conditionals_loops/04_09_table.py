@@ -8,3 +8,8 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+for i in range(50):
+    print(i, end = " ")
+    if (i + 1) % 10 == 0:      # starts a new line for every 10th number
+        print("")
