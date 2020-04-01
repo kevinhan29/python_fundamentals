@@ -25,3 +25,8 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+for i in office:
+    name = i["full_name"]
+    item = i["item"]
+    print(f"{name:<25}{item:<50}")
