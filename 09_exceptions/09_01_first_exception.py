@@ -8,3 +8,14 @@ print(list_[1])
 This raises and exception that needs to be handled.
 
 '''
+
+list_ = ["hello world!"]
+
+try:
+    print(list_[1])
+except IndexError as err:
+    print(err)
+except:
+    print("Something else went wrong")
+finally:
+    print("finished executing code...")
