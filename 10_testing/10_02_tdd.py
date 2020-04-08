@@ -8,3 +8,13 @@ fail and write tests that will check and prevent failure.
 You do not need to implement the actual functions after writing the tests but you may.
 
 '''
+
+# Function that divides two numbers, takes 2 args, numerator and denominator
+def test_DivisionResult():
+    assert Division(10, 5) == 2
+
+def test_Division_InvalidArguments():
+    assert Division(10, "5") == None
+
+def test_Division_DivideByZero():
+    assert Division(10, 0) == "Cannot divide by Zero"
