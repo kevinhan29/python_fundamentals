@@ -9,3 +9,8 @@ TIP:
     very common. head over to SO and find a solution!
 
 '''
+
+import requests
+
+codingnomads = requests.get("https://codingnomads.co/")
+print(codingnomads.text)
